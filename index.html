@@ -4,11 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Montenegro Gestiones | Seguros en Estados Unidos</title>
-  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Remix Icon -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
   <script>
     tailwind.config = {
@@ -195,10 +192,8 @@
 </head>
 <body class="font-sans text-gray-700 bg-gray-50 antialiased overflow-x-hidden">
 
-  <!-- Header / Navbar -->
   <header id="header" class="bg-white/95 backdrop-blur-md shadow-lg fixed w-full z-40 transition-all duration-300">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <!-- Logo Area -->
       <a href="#" class="flex items-center space-x-2 group">
         <img src="https://i.postimg.cc/LsYrt3R2/99d28cf7-5f2a-4649-9ce3-f922de78c5b6.jpg" alt="Montenegro Gestiones Logo" class="h-12 w-auto transform transition duration-500 group-hover:scale-110 rounded-md">
         <div class="flex flex-col">
@@ -207,7 +202,6 @@
         </div>
       </a>
       
-      <!-- Desktop Nav -->
       <nav class="hidden md:flex space-x-8 items-center">
         <a href="#inicio" class="text-gray-600 hover:text-gold-dark font-semibold transition relative group">
           Inicio
@@ -231,7 +225,6 @@
         </div>
       </nav>
       
-      <!-- Mobile Menu Button -->
       <button id="menuBtn" class="md:hidden text-gray-800 focus:outline-none p-2 rounded-md hover:bg-gray-100 transition z-50" aria-controls="mobileMenu" aria-expanded="false" aria-label="Abrir menú">
         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -240,7 +233,6 @@
     </div>
   </header>
 
-  <!-- Mobile Menu User Implementation -->
   <div id="menuBackdrop" hidden></div>
   <nav id="mobileMenu" hidden class="md:hidden">
     <div class="flex justify-end">
@@ -258,12 +250,9 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
   <section id="inicio" class="hero-bg min-h-screen flex items-center justify-center text-center px-4 pt-20 relative overflow-hidden gold-swoosh">
-    <!-- Decorative overlay -->
     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-ivory/80 pointer-events-none"></div>
     
-    <!-- Sparkles -->
     <div class="sparkle" style="top: 20%; left: 10%; animation-delay: 0s;"></div>
     <div class="sparkle" style="top: 30%; right: 20%; animation-delay: 1s;"></div>
     <div class="sparkle" style="bottom: 40%; left: 15%; animation-delay: 2s;"></div>
@@ -290,13 +279,11 @@
       </div>
     </div>
     
-    <!-- Scroll Down Indicator -->
     <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce text-gold-dark opacity-70">
       <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
     </div>
   </section>
 
-  <!-- Services Section -->
   <section id="servicios" class="py-24 bg-white relative">
     <div class="container mx-auto px-6">
       <div class="text-center mb-20 reveal">
@@ -307,7 +294,6 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        <!-- Service Card 1 -->
         <div class="service-card bg-white p-10 rounded-2xl shadow-lg border border-gray-100 group relative overflow-hidden reveal">
           <div class="absolute top-0 left-0 w-2 h-full bg-gold transform -translate-x-2 transition-transform group-hover:translate-x-0"></div>
           <div class="w-16 h-16 bg-gold/10 rounded-2xl flex items-center justify-center mb-8 text-gold-dark text-3xl group-hover:bg-gold group-hover:text-white transition duration-300 shadow-sm">
@@ -317,7 +303,6 @@
           <p class="text-gray-600 leading-relaxed">Cobertura médica integral en las mejores clínicas y hospitales. Planes diseñados para ti y tu familia.</p>
         </div>
 
-        <!-- Service Card 2 -->
         <div class="service-card bg-white p-10 rounded-2xl shadow-lg border border-gray-100 group relative overflow-hidden reveal">
           <div class="absolute top-0 left-0 w-2 h-full bg-gold transform -translate-x-2 transition-transform group-hover:translate-x-0"></div>
           <div class="w-16 h-16 bg-gold/10 rounded-2xl flex items-center justify-center mb-8 text-gold-dark text-3xl group-hover:bg-gold group-hover:text-white transition duration-300 shadow-sm">
@@ -327,7 +312,6 @@
           <p class="text-gray-600 leading-relaxed">Sonríe con confianza. Atención preventiva y especializada con amplias redes dentales nacionales.</p>
         </div>
 
-        <!-- Service Card 3 -->
         <div class="service-card bg-white p-10 rounded-2xl shadow-lg border border-gray-100 group relative overflow-hidden reveal">
           <div class="absolute top-0 left-0 w-2 h-full bg-gold transform -translate-x-2 transition-transform group-hover:translate-x-0"></div>
           <div class="w-16 h-16 bg-gold/10 rounded-2xl flex items-center justify-center mb-8 text-gold-dark text-3xl group-hover:bg-gold group-hover:text-white transition duration-300 shadow-sm">
@@ -337,7 +321,6 @@
           <p class="text-gray-600 leading-relaxed">Protección completa para tus seres queridos, adaptada a cada etapa de la vida y presupuesto.</p>
         </div>
 
-        <!-- Service Card 4 -->
         <div class="service-card bg-white p-10 rounded-2xl shadow-lg border border-gray-100 group relative overflow-hidden reveal">
           <div class="absolute top-0 left-0 w-2 h-full bg-gold transform -translate-x-2 transition-transform group-hover:translate-x-0"></div>
           <div class="w-16 h-16 bg-gold/10 rounded-2xl flex items-center justify-center mb-8 text-gold-dark text-3xl group-hover:bg-gold group-hover:text-white transition duration-300 shadow-sm">
@@ -347,7 +330,6 @@
           <p class="text-gray-600 leading-relaxed">Garantiza el futuro financiero de tu familia. Tranquilidad hoy, seguridad siempre.</p>
         </div>
 
-        <!-- Service Card 5 -->
         <div class="service-card bg-white p-10 rounded-2xl shadow-lg border border-gray-100 group relative overflow-hidden reveal">
           <div class="absolute top-0 left-0 w-2 h-full bg-gold transform -translate-x-2 transition-transform group-hover:translate-x-0"></div>
           <div class="w-16 h-16 bg-gold/10 rounded-2xl flex items-center justify-center mb-8 text-gold-dark text-3xl group-hover:bg-gold group-hover:text-white transition duration-300 shadow-sm">
@@ -357,7 +339,6 @@
           <p class="text-gray-600 leading-relaxed">Circula seguro. Cobertura obligatoria y opciones premium para tu tranquilidad en la vía.</p>
         </div>
 
-        <!-- Service Card 6 -->
         <div class="service-card bg-white p-10 rounded-2xl shadow-lg border border-gray-100 group relative overflow-hidden reveal">
           <div class="absolute top-0 left-0 w-2 h-full bg-gold transform -translate-x-2 transition-transform group-hover:translate-x-0"></div>
           <div class="w-16 h-16 bg-gold/10 rounded-2xl flex items-center justify-center mb-8 text-gold-dark text-3xl group-hover:bg-gold group-hover:text-white transition duration-300 shadow-sm">
@@ -370,16 +351,14 @@
     </div>
   </section>
 
-  <!-- Why Us Section -->
   <section id="nosotros" class="py-24 bg-accent relative overflow-hidden">
     <div class="container mx-auto px-6 relative z-10">
       <div class="flex flex-col lg:flex-row items-center gap-16">
         <div class="lg:w-1/2 reveal">
           <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
             <div class="absolute inset-0 bg-gold/10 mix-blend-overlay"></div>
-            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Asesoría Profesional" class="w-full object-cover transform transition duration-700 hover:scale-105">
+            <img src="https://i.postimg.cc/mDJpTRth/16872fb0-0fc5-407f-82d5-f85a59c2a5ce.jpg" alt="Asesoría Profesional" class="w-full object-cover transform transition duration-700 hover:scale-105">
           </div>
-          <!-- Experience Badge -->
           <div class="absolute -bottom-4 -right-4 md:right-10 md:-bottom-10 bg-gradient-to-br from-gold to-gold-dark p-6 md:p-8 rounded-xl shadow-xl text-white max-w-[200px] md:max-w-xs scale-90 md:scale-100 border-2 border-white">
             <p class="text-3xl md:text-4xl font-bold mb-1 font-serif">10+</p>
             <p class="text-xs md:text-sm font-semibold uppercase tracking-wider">Años de Experiencia</p>
@@ -433,7 +412,6 @@
     </div>
   </section>
 
-  <!-- FAQ Section (Warm Pastel) -->
   <section class="py-24 bg-warm-100 text-gray-800 relative">
     <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
     <div class="container mx-auto px-6 relative z-10">
@@ -458,9 +436,7 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
   <section id="contacto" class="py-24 bg-white relative overflow-hidden">
-    <!-- Decorative background elements -->
     <div class="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
     <div class="absolute bottom-0 left-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
 
@@ -511,7 +487,6 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-gray-900 text-white pt-20 pb-10 border-t border-gray-800">
     <div class="container mx-auto px-6">
       <div class="flex flex-col md:flex-row justify-between items-center mb-12">
@@ -543,7 +518,6 @@
     </div>
   </footer>
 
-  <!-- Scripts -->
   <script>
     // Mobile Menu Toggle (User Implementation)
     const btn = document.getElementById('menuBtn');
